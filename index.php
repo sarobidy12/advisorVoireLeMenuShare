@@ -16,7 +16,7 @@
 
 <body>
     <script>
-        window.location.replace("advisor.voirlemenu.fr/restaurants/<?=  $_GET['id_Rstaurant'];  ?>");
+        window.location.replace("https://advisor.voirlemenu.fr/restaurants/<?=  $_GET['id_restaurant'];  ?>");
     </script>
 </body>
 
