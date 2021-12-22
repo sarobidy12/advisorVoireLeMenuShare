@@ -2,7 +2,6 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8" />
-
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?= isset($_GET['title']) ? $_GET['title'] : "Menu Advisor"  ?>" />
     <meta property="og:description" content="<?= isset($_GET['description']) ? $_GET['description'] : "Un petit creux? Menu advisor est là pour cel"  ?>" />
@@ -16,9 +15,9 @@
 </head>
 
 <body>
-    
-          
- 
+    <script>
+        window.location.replace("advisor.voirlemenu.fr/restaurants/<?=  $_GET['id_Rstaurant'];  ?>");
+    </script>
 </body>
 
 </html>
